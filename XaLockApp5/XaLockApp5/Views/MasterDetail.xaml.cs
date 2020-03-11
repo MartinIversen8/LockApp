@@ -18,7 +18,7 @@ namespace XaLockApp5.Views
 		public MasterDetail ()
 		{
 			InitializeComponent ();
-            profileImage.Source = ImageSource.FromFile("spider.jpg");
+            profileImage.Source = ImageSource.FromFile("padLock.png");
 
             navigationList.ItemsSource = GetMenuList();
 

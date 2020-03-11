@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:baseViewModel="clr-namespace:XaFirstMVVMNav.ViewModels;assembly=XaFirstMVVMNav"
+             xmlns:baseViewModel="clr-namespace:XaLockApp5.ViewModels;assembly=XaLockApp5"
              baseViewModel:ViewModelLocator.AutoWireViewModel="true"
-             x:Class="XaFirstMVVMNav.Views.TryView">
+             x:Class="XaLockApp5.Views.TryView">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to the try view!"

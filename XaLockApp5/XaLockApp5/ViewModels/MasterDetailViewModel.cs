@@ -4,9 +4,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
-using XaFirstMVVMNav.Models;
+using XaLockApp5.Models;
 
-namespace XaFirstMVVMNav.ViewModels
+namespace XaLockApp5.ViewModels
 {
     class MasterDetailViewModel : BaseViewModel
     {

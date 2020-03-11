@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XaFirstMVVMNav
+namespace XaLockApp5
 {
     public static class ServiceContainer
     {

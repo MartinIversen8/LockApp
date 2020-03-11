@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using Xamarin.Forms;
 
-namespace XaFirstMVVMNav.ViewModels
+namespace XaLockApp5.ViewModels
 {
     public abstract class ExtendedBindableObject : BindableObject
     {

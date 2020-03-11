@@ -2,11 +2,11 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Threading.Tasks;
-using XaFirstMVVMNav.ViewModels;
-using XaFirstMVVMNav.Services;
+using XaLockApp5.ViewModels;
+using XaLockApp5.Services;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace XaFirstMVVMNav
+namespace XaLockApp5
 {
     
 

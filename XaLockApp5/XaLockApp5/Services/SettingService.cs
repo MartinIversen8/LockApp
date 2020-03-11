@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace XaFirstMVVMNav.Services
+namespace XaLockApp5.Services
 {
     public class SettingsService : ISettingsService
     {

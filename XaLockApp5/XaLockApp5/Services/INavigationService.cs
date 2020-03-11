@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using XaFirstMVVMNav.ViewModels;
+using XaLockApp5.ViewModels;
 
-namespace XaFirstMVVMNav.Services
+namespace XaLockApp5.Services
 {
     public interface INavigationService
     {

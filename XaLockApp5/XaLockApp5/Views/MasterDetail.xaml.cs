@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using XaFirstMVVMNav.Models;
-using XaFirstMVVMNav.ViewModels;
+using XaLockApp5.Models;
+using XaLockApp5.ViewModels;
 using System.Reflection;
 
-namespace XaFirstMVVMNav.Views
+namespace XaLockApp5.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MasterDetail : MasterDetailPage

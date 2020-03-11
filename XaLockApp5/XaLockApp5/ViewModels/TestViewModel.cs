@@ -4,7 +4,7 @@ using System.Text;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace XaFirstMVVMNav.ViewModels
+namespace XaLockApp5.ViewModels
 {
     class TestViewModel : BaseViewModel
     {

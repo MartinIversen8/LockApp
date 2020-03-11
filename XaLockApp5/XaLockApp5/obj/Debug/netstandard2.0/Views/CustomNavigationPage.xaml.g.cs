@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.Views.CustomNavigationPage.xaml", "Views/CustomNavigationPage.xaml", typeof(global::XaFirstMVVMNav.Views.CustomNavigationPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.Views.CustomNavigationPage.xaml", "Views/CustomNavigationPage.xaml", typeof(global::XaLockApp5.Views.CustomNavigationPage))]
 
-namespace XaFirstMVVMNav.Views {
+namespace XaLockApp5.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\CustomNavigationPage.xaml")]

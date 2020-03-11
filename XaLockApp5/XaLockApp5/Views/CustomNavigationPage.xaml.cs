@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace XaFirstMVVMNav.Views
+namespace XaLockApp5.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CustomNavigationPage : NavigationPage

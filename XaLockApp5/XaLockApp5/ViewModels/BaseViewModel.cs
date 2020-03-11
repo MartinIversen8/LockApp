@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using XaFirstMVVMNav.Services;
+using XaLockApp5.Services;
 
-namespace XaFirstMVVMNav.ViewModels
+namespace XaLockApp5.ViewModels
 {
     public abstract class BaseViewModel : ExtendedBindableObject
     {

@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.MainPage.xaml", "MainPage.xaml", typeof(global::XaFirstMVVMNav.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.MainPage.xaml", "MainPage.xaml", typeof(global::XaLockApp5.MainPage))]
 
-namespace XaFirstMVVMNav {
+namespace XaLockApp5 {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("MainPage.xaml")]

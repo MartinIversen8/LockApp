@@ -5,10 +5,10 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using XaFirstMVVMNav.ViewModels;
-using XaFirstMVVMNav.Views;
+using XaLockApp5.ViewModels;
+using XaLockApp5.Views;
 
-namespace XaFirstMVVMNav.Services
+namespace XaLockApp5.Services
 {
     public class NavigationService : INavigationService
     {

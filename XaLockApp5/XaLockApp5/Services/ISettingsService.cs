@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XaFirstMVVMNav.Services
+namespace XaLockApp5.Services
 {
     public interface ISettingsService
     {

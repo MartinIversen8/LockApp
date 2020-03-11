@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XaFirstMVVMNav.Views.MasterDetail">
+             x:Class="XaLockApp5.Views.MasterDetail">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" BackgroundColor="White" Padding="10">
             <ContentPage.Content>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace XaFirstMVVMNav.Models
+namespace XaLockApp5.Models
 {
     public class MasterMenuItems
     {

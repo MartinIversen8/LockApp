@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.Views.TestView.xaml", "Views/TestView.xaml", typeof(global::XaFirstMVVMNav.Views.TestView))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("XaLockApp5.Views.TestView.xaml", "Views/TestView.xaml", typeof(global::XaLockApp5.Views.TestView))]
 
-namespace XaFirstMVVMNav.Views {
+namespace XaLockApp5.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\TestView.xaml")]

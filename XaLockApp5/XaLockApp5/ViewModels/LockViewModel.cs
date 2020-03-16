@@ -1,0 +1,45 @@
+﻿using Plugin.Geolocator;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
+using Xamarin.Forms.Maps;
+
+namespace XaLockApp5.ViewModels
+{
+    class LockViewModel : BaseViewModel
+    {
+        bool isBusy = false;
+        Map map = new Map();
+
+        public ICommand LockCommand => new Command(async () => {
+            if (isBusy)
+                return;
+            isBusy = true;
+
+            // TODO insert code for Locking 
+
+            // register place where ít is locked. 
+
+            var locator = CrossGeolocator.Current;
+            locator.DesiredAccuracy = 1;
+            var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(0.01));
+
+            var latitude = position.Latitude;
+            var longitude = position.Longitude;
+
+            var pin = new Pin()
+            {
+                Position = new Position(position.Latitude, position.Longitude),
+                Label = "Locked Bike"
+            };
+
+            map.Pins.Add(pin);
+
+            isBusy = false;
+        });
+
+       
+    }
+}

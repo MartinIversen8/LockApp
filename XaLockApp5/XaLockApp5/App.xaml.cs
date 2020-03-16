@@ -23,10 +23,10 @@ namespace XaLockApp5
             _settingsService = ServiceContainer.Resolve<ISettingsService>();
             ServiceContainer.Register<INavigationService>(() => new NavigationService(_settingsService));
             // add all your Viewmodel that are going to be used
-            ServiceContainer.Register<TestViewModel>(() => new TestViewModel());
-            ServiceContainer.Register<TryViewModel>(() => new TryViewModel());
+            
             ServiceContainer.Register<LoginViewModel>(() => new LoginViewModel());
-
+            ServiceContainer.Register<LockViewModel>(() => new LockViewModel());
+            ServiceContainer.Register<GPSViewModel>(() => new GPSViewModel());
 
             var masterDetailViewModel = new MasterDetailViewModel();
             ServiceContainer.Register<MasterDetailViewModel>(() => masterDetailViewModel);

@@ -7,23 +7,23 @@
              xmlns:baseViewModel="clr-namespace:XaLockApp5.ViewModels;assembly=XaLockApp5"
              baseViewModel:ViewModelLocator.AutoWireViewModel="true"
              x:Class="XaLockApp5.Views.LoginView"
-             BackgroundImageSource="padLock.png">
+             BackgroundImageSource="Cykel.jpg">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="100"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="150"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <StackLayout Grid.Row="1" Grid.Column="1">
-                <Entry x:Name="Username" Placeholder="Username"/>
-                <Entry x:Name="Password" Placeholder="Password"/>
+                <Entry x:Name="Username" Placeholder="Username" BackgroundColor="White"/>
+                <Entry x:Name="Password" Placeholder="Password" BackgroundColor="White"/>
                 <Button x:Name="LoginBtn" Text="LOGIN" Command="{Binding NavigateToSentenceCMD}" />
             </StackLayout>
 

@@ -15,7 +15,8 @@ namespace XaLockApp5.ViewModels
                 return;
             isBusy = true;
 
-            await NavigationService.NavigateToAsync<TryViewModel>();
+            // navigate to the next page after you have logged in 
+            await NavigationService.NavigateToAsync<LockViewModel>();
 
             isBusy = false;
         });

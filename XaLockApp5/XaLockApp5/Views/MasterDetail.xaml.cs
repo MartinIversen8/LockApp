@@ -29,22 +29,22 @@ namespace XaLockApp5.Views
         {
             var list = new List<MasterMenuItems>();
 
+            // Add all the views to the navigation list
             list.Add(new MasterMenuItems()
             {
-                Text = "Try ViewModel",
+                Text = "Lock Page",
                 Detail = "Try it out",
-                ImagePath = "skeleton.png",
-                TargetViewModel = typeof(TryViewModel) 
+                ImagePath = "padLock.png",
+                TargetViewModel = typeof(LockViewModel)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "GPS Page",
+                Detail = "Try it out",
+                ImagePath = "kompas.png",
+                TargetViewModel = typeof(GPSViewModel)
             });
 
-            list.Add(new MasterMenuItems()
-            {
-                Text = "Test ViewModel",
-                Detail = "Test it out",
-                ImagePath = "grill.png",
-                TargetViewModel = typeof(TestViewModel)
-            });
-            
             return list;
         }
 

@@ -34,7 +34,7 @@ namespace XaLockApp5.ViewModels
                 Position = new Position(position.Latitude, position.Longitude),
                 Label = "Locked Bike"
             };
-
+            // doesnt work it doesnt add pin to the map
             map.Pins.Add(pin);
 
             isBusy = false;

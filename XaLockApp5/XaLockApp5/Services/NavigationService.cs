@@ -32,7 +32,7 @@ namespace XaLockApp5.Services
         public Task InitializeAsync()
         {
             //return NavigateToAsync<UserNameViewModel>();
-            return NavigateToAsync<TestViewModel>();//The startpage
+            return NavigateToAsync<LoginViewModel>();//The startpage
 
             //if (string.IsNullOrEmpty(_settingsService.AuthAccessToken))
             //return NavigateToAsync<MenuViewModel>();

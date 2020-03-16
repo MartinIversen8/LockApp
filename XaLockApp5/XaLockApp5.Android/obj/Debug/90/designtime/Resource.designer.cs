@@ -11339,11 +11339,11 @@ namespace XaLockApp5.Droid
 			// aapt resource value: 0x7F080001
 			public const int APPLICATION_NAME = 2131230721;
 			
-			// aapt resource value: 0x7F080022
-			public const int app_name = 2131230754;
-			
 			// aapt resource value: 0x7F080002
 			public const int APP_NAME = 2131230722;
+			
+			// aapt resource value: 0x7F080022
+			public const int app_name = 2131230754;
 			
 			// aapt resource value: 0x7F080024
 			public const int async = 2131230756;
